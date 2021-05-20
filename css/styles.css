@@ -5,11 +5,11 @@
   font-weight: 400;
   src: url("../fonts/spartan-v3-latin-regular.eot");
   src:
-       url("../fonts/spartan-v3-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("../fonts/spartan-v3-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-       url("../fonts/spartan-v3-latin-regular.woff") format("woff"), /* Modern Browsers */
-       url("../fonts/spartan-v3-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("../fonts/spartan-v3-latin-regular.svg#Spartan") format("svg"); /* Legacy iOS */
+  url("../fonts/spartan-v3-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/spartan-v3-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+  url("../fonts/spartan-v3-latin-regular.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/spartan-v3-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/spartan-v3-latin-regular.svg#Spartan") format("svg"); /* Legacy iOS */
 }
 
 @font-face {
@@ -18,11 +18,11 @@
   font-weight: 500;
   src: url("../fonts/spartan-v3-latin-500.eot");
   src:
-       url("../fonts/spartan-v3-latin-500.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("../fonts/spartan-v3-latin-500.woff2") format("woff2"), /* Super Modern Browsers */
-       url("../fonts/spartan-v3-latin-500.woff") format("woff"), /* Modern Browsers */
-       url("../fonts/spartan-v3-latin-500.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("../fonts/spartan-v3-latin-500.svg#Spartan") format("svg"); /* Legacy iOS */
+  url("../fonts/spartan-v3-latin-500.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/spartan-v3-latin-500.woff2") format("woff2"), /* Super Modern Browsers */
+  url("../fonts/spartan-v3-latin-500.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/spartan-v3-latin-500.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/spartan-v3-latin-500.svg#Spartan") format("svg"); /* Legacy iOS */
 }
 
 @font-face {
@@ -31,11 +31,11 @@
   font-weight: 700;
   src: url("../fonts/spartan-v3-latin-700.eot");
   src:
-       url("../fonts/spartan-v3-latin-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("../fonts/spartan-v3-latin-700.woff2") format("woff2"), /* Super Modern Browsers */
-       url("../fonts/spartan-v3-latin-700.woff") format("woff"), /* Modern Browsers */
-       url("../fonts/spartan-v3-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("../fonts/spartan-v3-latin-700.svg#Spartan") format("svg"); /* Legacy iOS */
+  url("../fonts/spartan-v3-latin-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/spartan-v3-latin-700.woff2") format("woff2"), /* Super Modern Browsers */
+  url("../fonts/spartan-v3-latin-700.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/spartan-v3-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/spartan-v3-latin-700.svg#Spartan") format("svg"); /* Legacy iOS */
 }
 
 :root{
@@ -135,9 +135,9 @@ img {
   align-items: center;
 }
 .job-content-list{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .job-head-title{
@@ -149,27 +149,27 @@ img {
 }
 
 .job-brend{
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-color: var(--text);
-margin-right: 16px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text);
+  margin-right: 16px;
 
 }
 
 .job-new{
-font-weight: bold;
-font-size: 11px;
-line-height: 14px;
-text-align: center;
-letter-spacing: -0.0846154px;
-text-transform: uppercase;
-color: #fff;
-background-color: var(--background-light);
-border-radius: var(--border-radius);
-padding: 5px 8px;
-padding-top: 8px;
-margin-right: 8px;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--background-light);
+  border-radius: var(--border-radius);
+  padding: 5px 8px;
+  padding-top: 8px;
+  margin-right: 8px;
 
 }
 
@@ -196,12 +196,12 @@ margin-right: 8px;
 }
 
 .job-content-time{
-font-weight: 500;
-font-size: 15px;
-line-height: 24px;
-letter-spacing: -0.115385px;
-color: #7C8F8F;
-margin-right: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.115385px;
+  color: #7C8F8F;
+  margin-right: 15px;
 }
 .time-third{
   margin-right: 0;
@@ -212,9 +212,9 @@ margin-right: 15px;
   width: 4px;
   height: 4px;
   border-radius: 50%;
- background-color:  #B7C4C4;
-display: block;
-margin-right: 16px;
+  background-color:  #B7C4C4;
+  display: block;
+  margin-right: 16px;
 }
 
 .time-second::after{
@@ -222,9 +222,9 @@ margin-right: 16px;
   width: 4px;
   height: 4px;
   border-radius: 50%;
- background-color:  #B7C4C4;
-display: block;
-margin-left: 16px;
+  background-color:  #B7C4C4;
+  display: block;
+  margin-left: 16px;
 }
 
 .time-second {
@@ -233,18 +233,22 @@ margin-left: 16px;
 }
 
 .job-content-items{
-list-style: none;
-margin-right: 16px;
-background-color:#EFFAFA;
-padding: 4px 8px;
-font-weight: bold;
-font-size: 13px;
-line-height: 24px;
-letter-spacing: -0.1px;
-color: var(--text);
-mix-blend-mode: normal;
-border-radius: 4px;
+  list-style: none;
+  margin-right: 16px;
+  background-color:#EFFAFA;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: var(--text);
+  mix-blend-mode: normal;
+  border-radius: 4px;
 }
 .items-last{
   margin-right: 0;
+}
+
+.last-job-box{
+  margin-bottom: 120px;
 }
