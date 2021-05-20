@@ -144,6 +144,8 @@ img {
   margin: 0;
 }
 
+
+
 .job-logo{
   margin-right: 24px;
 }
@@ -154,8 +156,8 @@ img {
   line-height: 16px;
   color: var(--text);
   margin-right: 16px;
-
 }
+
 
 .job-new{
   font-weight: bold;
@@ -192,8 +194,13 @@ img {
   font-size: 18px;
   line-height: 24px;
   color: #2B3939;
-
+  transition: all 0.4s ease;
 }
+.job-link:hover{
+  color: var(--text);
+  cursor: pointer;
+  }
+
 
 .job-content-time{
   font-weight: 500;
@@ -244,6 +251,13 @@ img {
   color: var(--text);
   mix-blend-mode: normal;
   border-radius: 4px;
+  transition: all 0.4s ease;
+}
+
+.job-content-items:hover{
+cursor: pointer;
+background-color: var(--background-light);
+color: #fff;
 }
 .items-last{
   margin-right: 0;
